@@ -1,13 +1,13 @@
-<aura:component controller="Lookup"> 
+<aura:component controller="Lookup" implements="force:appHostable"> 
     <aura:attribute Name="selItem" type="object" access="public" description="This attribute can be used by parent component to read selected record"/>  
     <aura:attribute Name="server_result" type="object[]" access="private" /> 
     
     <aura:attribute name="lookupIcon" type="String" access="public" default="standard:contact"/>
-   
-   <aura:attribute name="objectName" type="String" access="public" description="Name of Object to be searched"/>
-   <aura:attribute name="field_API_text" type="String" access="public" description="API Name of field, to be used to show text"/>
-   <aura:attribute name="field_API_val" type="String" access="public" description="API Name of field, to be returned from component"/>
-   <aura:attribute name="field_API_search" type="String" access="public" description="API Name of field to be searched"/>
+    
+   <aura:attribute name="objectName" default="Contact" type="String" access="public" description="Name of Object to be searched"/>
+   <aura:attribute name="field_API_text" default="Name" type="String" access="public" description="API Name of field, to be used to show text"/>
+   <aura:attribute name="field_API_val" default="LastName" type="String" access="public" description="API Name of field, to be returned from component"/>
+   <aura:attribute name="field_API_search" default="Name" type="String" access="public" description="API Name of field to be searched"/>
    <aura:attribute name="limit" type="Integer" access="public" default="5" description="Total number of record to be returned"/>
    <aura:attribute name="placeholder" type="String" access="public" default="Space character is used to search" />
    
