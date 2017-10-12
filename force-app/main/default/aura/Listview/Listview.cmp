@@ -1,0 +1,11 @@
+<aura:component controller="Lookup" implements="force:appHostable,flexipage:availableForAllPageTypes"> 
+    
+    <aura:attribute name="numbers" type="List"/>
+    <lightning:button onclick="{!c.getNumbers}" label="Display Numbers" />
+    <aura:iteration var="num" items="{!v.numbers}">
+      {!num.value}
+    </aura:iteration>
+    <aura:handler name="myComponentEvent" event="c:AddProduct" action="{!c.handleMyComponentEvent}"/>
+
+    <c:Lookup />
+</aura:component>

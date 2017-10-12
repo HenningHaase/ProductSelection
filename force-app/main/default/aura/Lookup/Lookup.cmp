@@ -1,4 +1,6 @@
-<aura:component controller="Lookup" implements="force:appHostable"> 
+<aura:component controller="Lookup" implements="force:appHostable,flexipage:availableForAllPageTypes"> 
+    
+    <aura:registerEvent name="myComponentEvent" type="c:AddProduct"/>
     <aura:attribute Name="selItem" type="object" access="public" description="This attribute can be used by parent component to read selected record"/>  
     <aura:attribute Name="server_result" type="object[]" access="private" /> 
     
@@ -71,5 +73,6 @@
                    </div>
                </div>
            </div> 
-   </div>     
+   </div>  
+   <lightning:button label="Product auswählen" onclick="{! c.fireMyComponentEvent }" /> 
 </aura:component>
