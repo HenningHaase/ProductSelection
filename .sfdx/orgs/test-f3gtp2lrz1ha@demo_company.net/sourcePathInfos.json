@@ -1,0 +1,182 @@
+[
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1507816121114,
+            "changeTime": 1507816121114,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1507816121115,
+            "changeTime": 1507816121115,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1507816121115,
+            "changeTime": 1507816121115,
+            "contentHash": "2c2a89c1c45d2977cfce538e475902f5520f4382",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1507818076710,
+            "changeTime": 1507818076710,
+            "contentHash": "7015ab4fc4ea24735dbe884238cc1b54bf915eca",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1507818076725,
+            "changeTime": 1507818076725,
+            "contentHash": "aaa8b7744fbe084d3af47344eda81eca99d72dc2",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\Lookup.cmp",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\Lookup.cmp",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 6022,
+            "modifiedTime": 1507818207534,
+            "changeTime": 1507818207534,
+            "contentHash": "c274b71f7d1b064cab7777f7a53d1ef3a1a3811f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\Lookup.cmp-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\Lookup.cmp-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 238,
+            "modifiedTime": 1507818076714,
+            "changeTime": 1507818076714,
+            "contentHash": "bad65dcaf0c9de48ddd0a1faf535ac47a50dc809",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\Lookup.css",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\Lookup.css",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 654,
+            "modifiedTime": 1507818207530,
+            "changeTime": 1507818207530,
+            "contentHash": "6f4cbc29891e840d0f7183bc1af443b36943357a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\LookupController.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\LookupController.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 339,
+            "modifiedTime": 1507818207531,
+            "changeTime": 1507818207531,
+            "contentHash": "c81556159ef662eebb1f01ebf884470e10d6f938",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\LookupHelper.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\LookupHelper.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 3736,
+            "modifiedTime": 1507818207543,
+            "changeTime": 1507818207543,
+            "contentHash": "bf7fdf5cb4a8eeb57dad6ac236b305e17466fac8",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\LookupRenderer.js",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\LookupRenderer.js",
+            "isDirectory": false,
+            "isMetadataFile": false,
+            "size": 50,
+            "modifiedTime": 1507818076725,
+            "changeTime": 1507818076725,
+            "contentHash": "8b79b016f08440c9b2f7d706a6d21229c854540b",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection",
+        {
+            "state": "n",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1507816227323,
+            "changeTime": 1507816227323,
+            "contentHash": "c248c0fcf4242beea127470c300f425a242a92af",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]
