@@ -10,7 +10,8 @@
     },
 	fireMyComponentEvent : function(component, event, helper) {
         var myEvent = component.getEvent("myComponentEvent");
-        myEvent.setParams({"param": "It works!"});
+        var productname = component.get("v.selItem.text");
+        myEvent.setParams({"param": productname});
         myEvent.fire();
 	} 
 })

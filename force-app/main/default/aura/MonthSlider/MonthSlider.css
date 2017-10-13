@@ -1,0 +1,4 @@
+.THIS .slds-input:focus, .THIS .slds-input:active {
+     border-color: rgb(216, 221, 230);
+     box-shadow: none;
+}
