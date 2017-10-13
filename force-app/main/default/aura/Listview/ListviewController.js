@@ -18,5 +18,21 @@
     	/* Updating the product list with new product. */
     	component.set("v.productList", PL); 
 
-    }
+    },
+    
+    handleMenuDelete :function(component, event, helper){
+        var selectedMenuItemValue = event.getParam("value");
+        alert(selectedMenuItemValue);
+        var indexNo;
+		
+        if(String(selectedMenuItemValue).startsWith("1"))
+        {     
+           indexNo = parseInt(selectedMenuItemValue)-100;	
+           helper.removeProductCard(component, indexNo);
+        } else {
+           alert('ToDo: Update!'); 
+           indexNo = parseInt(selectedMenuItemValue);
+           indexNo = indexNo - 200;	
+        }
+	}
 })

@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
     <flexiPageRegions>
-        <name>region1</name>
+        <name>header</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
             <componentName>Listview</componentName>
         </componentInstances>
-        <name>region2</name>
+        <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
     <flexiPageRegions>
@@ -18,21 +18,26 @@
                 <value>1440</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
+                <name>reportFilter</name>
+                <value>OPPORTUNITY_ID</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
                 <name>reportName</name>
                 <value>Opps_with_Products</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>showRefreshButton</name>
-                <value>true</value>
+                <value>false</value>
             </componentInstanceProperties>
             <componentName>flexipage:reportChart</componentName>
         </componentInstances>
-        <name>region3</name>
+        <name>main</name>
         <type>Region</type>
     </flexiPageRegions>
-    <masterLabel>Product Selection</masterLabel>
+    <masterLabel>Produkt Vorauswahl</masterLabel>
+    <sobjectType>Opportunity</sobjectType>
     <template>
-        <name>flexipage:appHomeTemplateHeaderTwoColumnsEqualWidth</name>
+        <name>flexipage:recordHomeLeftSidebarTemplateDesktop</name>
     </template>
-    <type>AppPage</type>
+    <type>RecordPage</type>
 </FlexiPage>

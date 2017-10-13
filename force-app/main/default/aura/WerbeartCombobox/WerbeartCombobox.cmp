@@ -1,0 +1,10 @@
+<aura:component >
+            <ui:inputSelect label="Werbeart:" >
+                <ui:inputSelectOption text="WA 1" label="WA 1" value="true"/>
+                <ui:inputSelectOption text="WA 2" label="WA 2"/>
+                <ui:inputSelectOption text="WA 3" label="WA 3"/>
+            </ui:inputSelect>
+            <div class="slds-p-top_medium"> 
+            	<ui:inputCurrency label="Netto/Netto pro Monat:" aura:id="amount" value="50"/>
+    		</div>
+</aura:component>

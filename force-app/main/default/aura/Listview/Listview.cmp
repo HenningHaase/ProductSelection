@@ -5,7 +5,7 @@
     <aura:handler name="myComponentEvent" event="c:AddProduct" action="{!c.handleMyComponentEvent}"/>
     <c:Lookup />
     <div class="slds-p-top_large">  
-    <aura:iteration var="product" items="{!v.productList}">
+    <aura:iteration var="product" indexVar="i" items="{!v.productList}">
       <article class="slds-card">
       <div class="slds-card__header slds-grid">
         <header class="slds-media slds-media_center slds-has-flexi-truncate">
@@ -20,8 +20,14 @@
           </div>
         </div>
        </header>
+       <div class="slds-no-flex">
+        <lightning:buttonMenu iconName="utility:settings" alternativeText="Settings" onselect="{! c.handleMenuDelete }">
+            <lightning:menuItem label="Entfernen" value="{!concat(100,i)}" />
+            <lightning:menuItem label="Update" value="{!concat(200,i)}"/>
+        </lightning:buttonMenu>
+        </div>
       </div>
-      <div class="slds-card__body slds-card__body_inner">Bitte geben Sie die Werbeart, das erste Erscheinungsdatum sowie die Laufzeit des Produktes an.</div>
+          <div class="slds-card__body slds-card__body_inner"><c:WerbeartCombobox /></div>
           <div class="slds-card__body slds-card__body_inner"><c:MonthSlider /></div>
       <footer class="slds-card__footer"></footer>
     </article>  

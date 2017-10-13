@@ -1,12 +1,16 @@
 <aura:component >
 <dt class="slds-item_label slds-text-color_weak slds-truncate" title="First Label">Erscheinungsdatum und Laufzeit in Monaten:</dt>
+<div class="slds-border_top">
 <div class="slds-grid">
   <div class="slds-col">
     <lightning:input type="date"  name="date" />    
   </div>
-  <div class="slds-col"> 
-    <lightning:input type="range" name="number" min="1" max="10" />
+    <div class="slds-col">
+      <div class="slds-p-left_medium">
+        <lightning:input type="range" name="number" min="1" max="10" />
+      </div>
   </div>
+</div>
 </div>
 
 
