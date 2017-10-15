@@ -10,10 +10,14 @@
         <enabled>false</enabled>
     </classAccesses>
     <custom>true</custom>
-    <tabVisibilities>
-        <tab>Product_Selection</tab>
-        <visibility>DefaultOn</visibility>
-    </tabVisibilities>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>OpportunityLineItem.Erscheinungsdatum__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <layoutAssignments>
+        <layout>OpportunityLineItem-Opportunity Product Layout</layout>
+    </layoutAssignments>
     <userLicense>Salesforce</userLicense>
     <userPermissions>
         <enabled>true</enabled>
@@ -105,6 +109,10 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ListEmailSend</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>ManageCases</name>
     </userPermissions>
     <userPermissions>
@@ -142,6 +150,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>TransferAnyCase</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>UseWebLink</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

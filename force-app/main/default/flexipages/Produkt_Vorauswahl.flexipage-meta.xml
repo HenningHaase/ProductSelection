@@ -6,16 +6,13 @@
     </flexiPageRegions>
     <flexiPageRegions>
         <componentInstances>
-            <componentName>Listview</componentName>
-        </componentInstances>
-        <name>sidebar</name>
-        <type>Region</type>
-    </flexiPageRegions>
-    <flexiPageRegions>
-        <componentInstances>
             <componentInstanceProperties>
                 <name>cacheAge</name>
                 <value>1440</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>label</name>
+                <value>Erscheinungsmonat</value>
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>reportFilter</name>
@@ -27,11 +24,18 @@
             </componentInstanceProperties>
             <componentInstanceProperties>
                 <name>showRefreshButton</name>
-                <value>false</value>
+                <value>true</value>
             </componentInstanceProperties>
             <componentName>flexipage:reportChart</componentName>
         </componentInstances>
         <name>main</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentName>Listview</componentName>
+        </componentInstances>
+        <name>sidebar</name>
         <type>Region</type>
     </flexiPageRegions>
     <masterLabel>Produkt Vorauswahl</masterLabel>

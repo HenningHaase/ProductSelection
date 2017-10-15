@@ -58,8 +58,9 @@
            indexNo = parseInt(selectedMenuItemValue)-100;
            helper.removeProductCard(component, indexNo, recordId);
         } else {
-           alert('ToDo: Update!'); 
            indexNo = parseInt(selectedMenuItemValue)-200;
+           helper.UpdateProducts(component, indexNo, recordId);
+
 
         }
 	}

@@ -32,14 +32,14 @@
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default",
         {
+            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default",
             "isDirectory": true,
-            "size": 0,
-            "modifiedTime": 1507924334259,
-            "changeTime": 1507924334259,
-            "contentHash": "5c8f299bc8fc15e03e45add9b732413ca5efe959",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 0,
+            "modifiedTime": 1508087903533,
+            "changeTime": 1508087903533,
+            "contentHash": "be98db103063cbe4cfb349a55f6b0aa65dfb46ea"
         }
     ],
     [
@@ -73,14 +73,14 @@
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\Lookup.cmp",
         {
-            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\Lookup.cmp",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 6753,
             "modifiedTime": 1508070513914,
             "changeTime": 1508070513914,
-            "contentHash": "434fee778df7a7f20076847d8542ce1c55068734"
+            "contentHash": "434fee778df7a7f20076847d8542ce1c55068734",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -112,14 +112,14 @@
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\LookupController.js",
         {
-            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Lookup\\LookupController.js",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 702,
             "modifiedTime": 1508070513953,
             "changeTime": 1508070513953,
-            "contentHash": "5e6a2b24309624ebe6d0fa592e20bc7b86af6540"
+            "contentHash": "5e6a2b24309624ebe6d0fa592e20bc7b86af6540",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -183,62 +183,62 @@
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\classes\\Lookup.cls",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1782,
-            "modifiedTime": 1508070514089,
-            "changeTime": 1508070514089,
-            "contentHash": "7f9c102a1e0021f3136e4208e58103b76d12ed87"
+            "size": 3117,
+            "modifiedTime": 1508087903595,
+            "changeTime": 1508087903595,
+            "contentHash": "79dcd4e86d2fb61a83b00ec5f978d93146f4c950"
         }
     ],
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\profiles\\Custom%3A Sales Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 4304,
-            "modifiedTime": 1507829554203,
-            "changeTime": 1507829554203,
-            "contentHash": "692ff20cc3ea3f1ad7724b8dce0524d4c481994d",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 4700,
+            "modifiedTime": 1508087903642,
+            "changeTime": 1508087903642,
+            "contentHash": "5c6635e497ecd7551c6bed69697bbaa0ab113bd7"
         }
     ],
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\profiles\\Custom%3A Support Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 4642,
-            "modifiedTime": 1507829554213,
-            "changeTime": 1507829554213,
-            "contentHash": "50702d7aa36c3070828c2de78ffdb35db75ae240",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 5038,
+            "modifiedTime": 1508087903677,
+            "changeTime": 1508087903677,
+            "contentHash": "7dd325d2ecfa58c9e80cc3a8be8adb87f26913bd"
         }
     ],
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\profiles\\Admin.profile-meta.xml",
             "isDirectory": false,
-            "size": 16774,
-            "modifiedTime": 1507829554224,
-            "changeTime": 1507829554224,
-            "contentHash": "54f612064823d72fc82d3d569009441861b78fd5",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 17511,
+            "modifiedTime": 1508087903786,
+            "changeTime": 1508087903786,
+            "contentHash": "2f821b67d1af9467601a227b8feeb6b0a122a0db"
         }
     ],
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\profiles\\Custom%3A Marketing Profile.profile-meta.xml",
             "isDirectory": false,
-            "size": 4304,
-            "modifiedTime": 1507829554235,
-            "changeTime": 1507829554235,
-            "contentHash": "692ff20cc3ea3f1ad7724b8dce0524d4c481994d",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 4700,
+            "modifiedTime": 1508087903820,
+            "changeTime": 1508087903820,
+            "contentHash": "5c6635e497ecd7551c6bed69697bbaa0ab113bd7"
         }
     ],
     [
@@ -296,14 +296,14 @@
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\AddProduct\\AddProduct.evt",
         {
-            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\AddProduct\\AddProduct.evt",
             "isDirectory": false,
-            "isMetadataFile": false,
             "size": 138,
             "modifiedTime": 1508070514021,
             "changeTime": 1508070514021,
-            "contentHash": "7b078a10cd5264cc00583e7838f7ec96b6e1c193"
+            "contentHash": "7b078a10cd5264cc00583e7838f7ec96b6e1c193",
+            "isMetadataFile": false,
+            "state": "u"
         }
     ],
     [
@@ -313,23 +313,23 @@
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Listview\\ListviewController.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1843,
-            "modifiedTime": 1508070514044,
-            "changeTime": 1508070514044,
-            "contentHash": "070a078a19dfe0983e6508007ddbff35ce78313e"
+            "size": 1872,
+            "modifiedTime": 1508087903425,
+            "changeTime": 1508087903425,
+            "contentHash": "507e5b88081d91579111e4432172627fac8d0fbc"
         }
     ],
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Listview\\Listview.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Listview\\Listview.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1508070514035,
             "changeTime": 1508070514035,
-            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa"
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
@@ -339,10 +339,10 @@
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Listview\\Listview.cmp",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 1815,
-            "modifiedTime": 1508070514071,
-            "changeTime": 1508070514071,
-            "contentHash": "9ed66f650304c5abef4f04bfb7e7f154ee1c1309"
+            "size": 1856,
+            "modifiedTime": 1508087903459,
+            "changeTime": 1508087903459,
+            "contentHash": "32ac3f21b7244b8dab105577dd3f2d1db718c7f7"
         }
     ],
     [
@@ -465,27 +465,27 @@
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\MonthSlider\\MonthSlider.cmp-meta.xml",
         {
-            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\MonthSlider\\MonthSlider.cmp-meta.xml",
             "isDirectory": false,
-            "isMetadataFile": true,
             "size": 228,
             "modifiedTime": 1508070513962,
             "changeTime": 1508070513962,
-            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa"
+            "contentHash": "379d947ebfaf249a903d8b860a7dcc5904e5d4aa",
+            "isMetadataFile": true,
+            "state": "u"
         }
     ],
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\MonthSlider\\MonthSlider.cmp",
         {
+            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\MonthSlider\\MonthSlider.cmp",
             "isDirectory": false,
-            "size": 486,
-            "modifiedTime": 1507924334229,
-            "changeTime": 1507924334229,
-            "contentHash": "8bcccc3a3a0ef6417cb085eb5f28c62406e8c659",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 538,
+            "modifiedTime": 1508087903373,
+            "changeTime": 1508087903373,
+            "contentHash": "756e88b73ccd0d781492bb57caf777eb2813cec4"
         }
     ],
     [
@@ -521,10 +521,10 @@
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\Listview\\ListviewHelper.js",
             "isDirectory": false,
             "isMetadataFile": false,
-            "size": 787,
-            "modifiedTime": 1508070514054,
-            "changeTime": 1508070514054,
-            "contentHash": "cf74862538186c4144416334ba763cb8df3a5ce2"
+            "size": 3540,
+            "modifiedTime": 1508087903441,
+            "changeTime": 1508087903441,
+            "contentHash": "48e0cafc94b6a5129bfa53527f7af2e2aa368414"
         }
     ],
     [
@@ -543,14 +543,14 @@
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\WerbeartCombobox\\WerbeartCombobox.cmp",
         {
+            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\aura\\WerbeartCombobox\\WerbeartCombobox.cmp",
             "isDirectory": false,
-            "size": 471,
-            "modifiedTime": 1507924334258,
-            "changeTime": 1507924334258,
-            "contentHash": "851367f8e67d84aed64b07817b52db28b47fa183",
             "isMetadataFile": false,
-            "state": "u"
+            "size": 491,
+            "modifiedTime": 1508087903492,
+            "changeTime": 1508087903492,
+            "contentHash": "f5edfb6db1ec05ef3a3e09342f67f0552999f777"
         }
     ],
     [
@@ -569,14 +569,14 @@
     [
         "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\flexipages\\Produkt_Vorauswahl.flexipage-meta.xml",
         {
+            "state": "u",
             "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\flexipages\\Produkt_Vorauswahl.flexipage-meta.xml",
             "isDirectory": false,
-            "size": 1551,
-            "modifiedTime": 1507924334291,
-            "changeTime": 1507924334291,
-            "contentHash": "313251c4370d79fa8c28472e85dc2800f9a1f20e",
             "isMetadataFile": true,
-            "state": "u"
+            "size": 1719,
+            "modifiedTime": 1508087903565,
+            "changeTime": 1508087903565,
+            "contentHash": "49a1a4f20fdea036f73815bf9753a188a1b8a272"
         }
     ],
     [
@@ -616,6 +616,84 @@
             "contentHash": "36b4ca4c5731877fa01de2265bc0e080036f21b0",
             "isMetadataFile": false,
             "state": "u"
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\objects\\OpportunityLineItem\\fields\\Erscheinungsdatum__c.field-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\objects\\OpportunityLineItem\\fields\\Erscheinungsdatum__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 287,
+            "modifiedTime": 1508087903515,
+            "changeTime": 1508087903515,
+            "contentHash": "676ece698e1915e0c8a45cc3166a57f022253d68"
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\layouts\\OpportunityLineItem-Opportunity Product Layout.layout-meta.xml",
+        {
+            "state": "u",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\layouts\\OpportunityLineItem-Opportunity Product Layout.layout-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 3566,
+            "modifiedTime": 1508087903538,
+            "changeTime": 1508087903538,
+            "contentHash": "1ff2e40bad16e8e1859fc02459d5992822916796"
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\objects\\OpportunityLineItem\\fields",
+        {
+            "state": "u",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\objects\\OpportunityLineItem\\fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1508087903515,
+            "changeTime": 1508087903515,
+            "contentHash": "71c2fd27b8dfc38a7cca1a8d927b93fc2f2ecfab"
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\objects\\OpportunityLineItem",
+        {
+            "state": "u",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\objects\\OpportunityLineItem",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1508087903513,
+            "changeTime": 1508087903513,
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07"
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\objects",
+        {
+            "state": "u",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1508087903512,
+            "changeTime": 1508087903512,
+            "contentHash": "83884037bcf7ed1ca2f44491f48f4ca2d466d1b6"
+        }
+    ],
+    [
+        "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\layouts",
+        {
+            "state": "u",
+            "sourcePath": "C:\\SalesforceDX\\ProductSelection\\force-app\\main\\default\\layouts",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 0,
+            "modifiedTime": 1508087903537,
+            "changeTime": 1508087903537,
+            "contentHash": "3673ad08cad90310005662f10b442d67946da0fa"
         }
     ]
 ]

@@ -4,6 +4,7 @@
     <aura:attribute name="options" type="String" default="Nothing" />
     <aura:attribute name="productList"  type="List"/>
     <aura:handler name="myComponentEvent" event="c:AddProduct" action="{!c.handleMyComponentEvent}"/>
+
     <c:Lookup />
     <div class="slds-p-top_large">  
     <aura:iteration var="product" indexVar="i" items="{!v.productList}">
@@ -28,8 +29,8 @@
         </lightning:buttonMenu>
         </div>
       </div>
-          <div class="slds-card__body slds-card__body_inner"><c:WerbeartCombobox /></div>
-          <div class="slds-card__body slds-card__body_inner"><c:MonthSlider /></div>
+          <div class="slds-card__body slds-card__body_inner"><c:WerbeartCombobox aura:id="DataInput" /></div>
+          <div class="slds-card__body slds-card__body_inner"><c:MonthSlider aura:id="TimeInput" /></div>
       <footer class="slds-card__footer"></footer>
     </article>  
        

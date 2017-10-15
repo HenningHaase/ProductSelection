@@ -15,8 +15,34 @@ public class Lookup {
      * @searchText - text to be searched
      * */
     @AuraEnabled
-    public static String removeLineItems(){
-    return 'Test';    
+    public static String removeLineItems(id OppId, id PID)
+    {
+        String output;
+        list<OpportunityLineItem> oppLI = new list<OpportunityLineItem>([SELECT 
+                                                                         		id,
+                                                                         		Name
+                                                                         FROM
+                                                                         		OpportunityLineItem 
+                                                                         WHERE 
+                                                                         		Opportunityid = :Oppid 
+                                                                         AND
+                                                                         		Product2Id = :PID
+                                                                        ]);
+        if(oppLI.size()>0)
+        {
+            output = oppLI[0].Name + ' : id ' + oppLI[0].id;
+            Delete oppLI;
+        }
+
+    	return 'Test: ' + OppId + ' , ' + PID + ' , ' + output;    
+    }
+    
+    @AuraEnabled
+    public static String AddLineItems(id OppId, id PID, String WA, String ld, integer lz, decimal am)
+    {
+        String output = String.valueof(OppId) + String.valueof(PID) + WA + ld + String.valueof(lz) + am.format();
+
+    	return output;    
     }
     
     @AuraEnabled 

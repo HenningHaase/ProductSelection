@@ -3,11 +3,11 @@
 <div class="slds-border_top">
 <div class="slds-grid">
   <div class="slds-col">
-    <lightning:input type="date"  name="date" />    
+    <lightning:input type="date" aura:id="firstdate" name="firstdate" />    
   </div>
     <div class="slds-col">
       <div class="slds-p-left_medium">
-        <lightning:input type="range" name="number" min="1" max="10" />
+        <lightning:input type="range"  aura:id="monthnumber" name="monthnumber" min="1" max="10" />
       </div>
   </div>
 </div>
