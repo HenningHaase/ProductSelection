@@ -6,9 +6,9 @@
     
     <aura:attribute name="lookupIcon" type="String" access="public" default="standard:contact"/>
     
-   <aura:attribute name="objectName" default="Contact" type="String" access="public" description="Name of Object to be searched"/>
+   <aura:attribute name="objectName" default="Product2" type="String" access="public" description="Name of Object to be searched"/>
    <aura:attribute name="field_API_text" default="Name" type="String" access="public" description="API Name of field, to be used to show text"/>
-   <aura:attribute name="field_API_val" default="LastName" type="String" access="public" description="API Name of field, to be returned from component"/>
+   <aura:attribute name="field_API_val" default="id" type="String" access="public" description="API Name of field, to be returned from component"/>
    <aura:attribute name="field_API_search" default="Name" type="String" access="public" description="API Name of field to be searched"/>
    <aura:attribute name="limit" type="Integer" access="public" default="5" description="Total number of record to be returned"/>
    <aura:attribute name="placeholder" type="String" access="public" default="Space character is used to search" />
@@ -16,7 +16,8 @@
    <aura:attribute name="last_SearchText" type="String" access="private" />
    <aura:attribute name="last_ServerResult" type="object[]" access="private" /> 
    <div class="slds-grid">
-   	<div class="slds-col">	
+   	<div class="slds-col">
+    <div class="slds-p-right_medium">
        <div class="slds">      
            <div class="slds-form-element"> 
                <div class="slds-form-element__control">
@@ -75,9 +76,12 @@
                    </div>
                </div> 
        </div>
+   	</div>
    </div>
    <div class="slds-col">
-   	  <lightning:button label="Product auswählen" onclick="{! c.fireMyComponentEvent }" />
+      <div class="slds-p-left_medium">
+   	  	<lightning:button label="Product auswählen" onclick="{! c.fireMyComponentEvent }" />
+      </div>
    </div>
 </div>
 </aura:component>

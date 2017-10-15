@@ -1,5 +1,6 @@
-<aura:component controller="Lookup" implements="force:appHostable,flexipage:availableForAllPageTypes"> 
+<aura:component controller="Lookup" implements="force:appHostable,flexipage:availableForAllPageTypes,force:hasRecordId"> 
     
+    <aura:attribute name="recordId" type="Id" />
     <aura:attribute name="options" type="String" default="Nothing" />
     <aura:attribute name="productList"  type="List"/>
     <aura:handler name="myComponentEvent" event="c:AddProduct" action="{!c.handleMyComponentEvent}"/>

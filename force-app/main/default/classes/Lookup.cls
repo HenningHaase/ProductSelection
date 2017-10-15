@@ -14,6 +14,11 @@ public class Lookup {
      * @fld_API_Search - API name of field to be searched
      * @searchText - text to be searched
      * */
+    @AuraEnabled
+    public static String removeLineItems(){
+    return 'Test';    
+    }
+    
     @AuraEnabled 
     public static String searchDB(String objectName, String fld_API_Text, String fld_API_Val, 
                                   Integer lim,String fld_API_Search,String searchText ){
