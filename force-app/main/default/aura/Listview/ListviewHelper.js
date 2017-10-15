@@ -117,14 +117,16 @@
     
     
     
-        handleResponse : function (res,component,helper){
+    handleResponse : function (res,component,helper){
         var msg;
-        if (res.getState() === 'SUCCESS') {
+        if (res.getState() === 'SUCCESS')
+        {
             msg = res.getReturnValue();
-            console.log(msg);
+            alert(msg);
             $A.get('e.force:refreshView').fire();
-        }else if (res.getState() === 'ERROR'){
-  			console.log('Error');
+        }else if (res.getState() === 'ERROR')
+        {
+  			alert('Error');
         }
     },
 })

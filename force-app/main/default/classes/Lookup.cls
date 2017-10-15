@@ -40,8 +40,37 @@ public class Lookup {
     @AuraEnabled
     public static String AddLineItems(id OppId, id PID, String WA, String ld, integer lz, decimal am)
     {
-        String output = String.valueof(OppId) + String.valueof(PID) + WA + ld + String.valueof(lz) + am.format();
+        String output = String.valueof(OppId) + ' , ' + String.valueof(PID) + ' , ' + WA + ' , ' + ld + ' , ' + String.valueof(lz) + ' , ' + am.format();
+        
+        list<OpportunityLineItem> oppLI = new list<OpportunityLineItem>();
+        date validationdate, finaldate;
+        Integer daysInMonth, day,j;
+        
+        
+        for(integer i = 0;i<lz;i++)
+        {
+            OpportunityLineItem OLI = new OpportunityLineItem();
+            OLI.opportunityid =  OppId;
+            OLI.Product2Id = PID;
+            OLI.Werbeart__c = WA;
+            OLI.TotalPrice = am;
+            OLI.Quantity = 1;
 
+            validationdate = Date.newInstance(Integer.valueof(ld.left(4)),Integer.valueof(ld.substring(5, 7)),1);
+            validationdate = validationdate.addMonths(i);
+            daysInMonth = Date.daysInMonth(validationdate.year(), validationdate.month());
+            
+            day = Integer.valueof(ld.right(2));
+			while( day > daysInMonth){
+      			day--;
+			}
+            
+            finaldate = Date.newinstance(validationdate.year(),validationdate.month(),day);
+            OLI.Erscheinungsdatum__c = finaldate;
+            
+            oppLI.add(OLI);
+        }
+        Insert oppLI;
     	return output;    
     }
     

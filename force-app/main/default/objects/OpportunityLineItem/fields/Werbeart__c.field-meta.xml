@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Werbeart__c</fullName>
+    <externalId>false</externalId>
+    <label>Werbeart</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>WA 1</fullName>
+                <default>false</default>
+                <label>WA 1</label>
+            </value>
+            <value>
+                <fullName>WA 2</fullName>
+                <default>false</default>
+                <label>WA 2</label>
+            </value>
+            <value>
+                <fullName>WA 3</fullName>
+                <default>false</default>
+                <label>WA 3</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
